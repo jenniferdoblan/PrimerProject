@@ -22,11 +22,12 @@
 #      Added a content type and a blank line
 
 
-echo "X-Cit-160: hello again steve!"
+echo "Welcome"
 echo "Content-type: text/html"
 
 echo ""
 echo "Begin"
+echo "This is a webpage"
 
 if [ -n "${QUERY_STRING}" ] ; then
    cat  ./${QUERY_STRING}
