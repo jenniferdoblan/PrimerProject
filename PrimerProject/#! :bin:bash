@@ -30,7 +30,7 @@ echo "Begin"
 echo "This is a webpage"
 
 if [ -n "${QUERY_STRING}" ] ; then
-   cat  ./${QUERY_STRING}
+   echo  ./${QUERY_STRING}
 fi
 
 # Read the body -- if it is a post  
