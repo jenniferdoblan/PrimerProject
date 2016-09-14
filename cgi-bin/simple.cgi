@@ -13,7 +13,7 @@ IFS=$saveIFS
 echo ${parm[1]}
 
 echo "<html><head><link rel="stylesheet" type="text/css"href="style.css"><title>Time</title></head>"
-echo "<body id="background-color">"
+echo "<body>"
 echo "<div id="wrap">"
 echo "    <div id="left_col">"
 echo " <h1>Time</h1>"
